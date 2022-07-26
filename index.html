@@ -17,6 +17,12 @@
 </head>
 <body>
 
+
+  <!-- LOADER -->
+  <div class="lds-roller-wrapper">
+    <div class="lds-ripple"><div></div><div></div></div>
+  </div>
+
   <!-- SITE-HEADER -->
   <header class="site-header">
 
@@ -133,5 +139,13 @@
     </div>
   </footer>
 
+  <!-- JS  -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function (){
+      setTimeout(function () {
+        document.querySelector(".lds-roller-wrapper").classList.add("lds-roller-wrapper--none")
+      }, 1500);
+    });
+  </script>
 </body>
 </html>
