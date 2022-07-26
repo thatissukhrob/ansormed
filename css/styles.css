@@ -6,14 +6,18 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", 'Arial', sans-serif;
+  font-style: 16px;
+  line-height: 1.5;
+  color: #444;
 }
 
 /* CONTAINER */
 .container{
-width: 100%;
-max-width: 1160px;
-padding-left: 30px;
-padding-right: 30px;
-margin-right: auto;
-margin-left: auto;
+  width: 100%;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
