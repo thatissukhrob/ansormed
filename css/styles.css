@@ -60,6 +60,7 @@ padding-bottom: 24px;
 
 .site-logo-img{
   margin-right: 16px;
+  border-radius: 50%;
 }
 
 
@@ -121,6 +122,41 @@ list-style: none;
 
 .main-link:active{
   background-color: #DE2E54;
+  color: white;
+  opacity: 0.6;
+}
+
+/* SITE-FOOTER */
+.site-footer{
+  padding-top: 24px;
+  padding-bottom: 24px;
+background-color: #222;
+color: white;
+}
+
+.site-footer-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.site-logo-site-footer{
+  color: white;
+}
+
+.site-logo-site-footer:active{
+color: #fff;
+}
+
+.site-nav-site-footer .sitenav-link{
+  color: white;
+}
+
+.site-nav-site-footer .sitenav-link:hover{
+  color: #DE2E54;
+}
+
+.site-nav-site-footer .sitenav-link:active{
   color: white;
   opacity: 0.6;
 }
