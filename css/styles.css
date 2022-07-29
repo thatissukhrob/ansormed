@@ -70,7 +70,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Open Sans", 'Arial', sans-serif;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 1.5;
   color: #444;
   background-color: white;
@@ -169,6 +169,7 @@ list-style: none;
 /* MAIN-LINK */
 .main-link{
   display: inline-block;
+text-align: center;
   padding: 10px 22px;
   border: 2px solid #DE2E54;
   border-radius: 8px;
@@ -236,7 +237,7 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.hero-heading{
+.hero-heading {
   margin-top: 0px;
   margin-bottom: 16px;
   font-family: 'Open Sans Condensed', 'Open Sans', 'Arial', sans-serif;
@@ -253,6 +254,12 @@ margin-bottom: 36px;
 .index-services{
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.index-services-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .index-services-heading{
